@@ -11,10 +11,11 @@
 сравнить их и вывести на экран сначала меньшее,
 затем большее, если они равны, написать, что они равны"""
 
-result = int (input('Input a number '))
-if result < 10:
-    print ('This number is less than 10')
-elif result > 10:
-    print ('This number is more than 10')
-elif result == 10:
+number_1 = int (input('Input a number one '))
+number_2 = int (input('Input a number two '))
+if number_1 < number_2:
+    print ('result_1 is less as result_2')
+elif number_1 > number_2:
+    print ('result_1 is more as result_2')
+elif number_1 == number_2:
     print ('The numbers are equal')
