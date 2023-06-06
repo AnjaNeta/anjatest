@@ -1,16 +1,8 @@
-# This is a sample Python script.
-
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+variable_one = int(input())
+variable_two = int(input())
+result_plus = variable_one + variable_two
+result_minus = variable_one - variable_two
+result_many = variable_one * variable_two
+print(result_plus)
+print(result_minus)
+print(result_many)
