@@ -14,8 +14,8 @@
 number_1 = int (input('Input a number one '))
 number_2 = int (input('Input a number two '))
 if number_1 < number_2:
-    print ('result_1 is less as result_2')
+    print ('number_1')
 elif number_1 > number_2:
-    print ('result_1 is more as result_2')
+    print ('number_2')
 elif number_1 == number_2:
     print ('The numbers are equal')
