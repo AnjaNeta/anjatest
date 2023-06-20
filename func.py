@@ -1,3 +1,6 @@
 def function(n):
-    return "отрицательное число" if n<0 else n>0
+    if n<0:
+        return "отрицательное число"
+    else:
+        return "negative"
 print(function(-1))
