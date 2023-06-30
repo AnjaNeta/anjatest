@@ -27,18 +27,17 @@ from typing import List, Any
 # func()
 
 """подсчет согласных и гласных в английском языке и вывод их"""
-word = input("Spring day")
-consonant =[]
-vocal =[]
-count =0
+word = str("Spring day")
+consonant = 0
+count = 0
 all_vocals = ["a", "e", "i", "o","u", "y"]
 def english():
     for i in word:
         if i in all_vocals:
             count +=1
-    else:
-        consonant +=1
-print("the count of vocals ",vocal)
+        else:
+            consonant +=1
+print("the count of vocals ",count)
 print("the count of consonants ", consonant)
 
 english(word)
