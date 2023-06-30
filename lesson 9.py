@@ -10,6 +10,8 @@
 # insects("butterfly", "fly", "dragonfly")
 
 """принимает марка автомобиля и его модель, которая по умолчанию"""
+from typing import List, Any
+
 # def salon(car_brand,model ='q7'):
 #     print("{} {}".format(car_brand,model))
 # salon("hyundai")
@@ -17,12 +19,26 @@
 """функция ничего не принимает на вход, внутри содержится фраза : "привет, питонист" 
 и функцию, которая выводит на печать"""
 
-def func():
-    hi = "hello, pythonist!"
-    def phrase(hi):
-        print(hi)
-    phrase(hi)
-func()
+# def func():
+#     hi = "hello, pythonist!"
+#     def phrase():
+#         print(hi)
+#     phrase()
+# func()
 
+"""подсчет согласных и гласных в английском языке и вывод их"""
+word = input("Spring day")
+consonant =[]
+vocal: list[Any] =[]
+count =[]
+all_vocals = ["a", "e", "i", "o","u", "y"]
+def english():
+    for i in word:
+        if i in all_vocals:
+count +=1
+else:
+consonant +=1
+print("the count of vocals ",vocal)
+print("the count of consonants ", consonant)
 
-
+english()
