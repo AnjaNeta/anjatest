@@ -29,16 +29,16 @@ from typing import List, Any
 """подсчет согласных и гласных в английском языке и вывод их"""
 word = input("Spring day")
 consonant =[]
-vocal: list[Any] =[]
-count =[]
+vocal =[]
+count =0
 all_vocals = ["a", "e", "i", "o","u", "y"]
 def english():
     for i in word:
         if i in all_vocals:
-count +=1
-else:
-consonant +=1
+        count +=1
+    else:
+    consonant +=1
 print("the count of vocals ",vocal)
 print("the count of consonants ", consonant)
 
-english()
+english(word)
