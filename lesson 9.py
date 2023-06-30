@@ -35,9 +35,9 @@ all_vocals = ["a", "e", "i", "o","u", "y"]
 def english():
     for i in word:
         if i in all_vocals:
-        count +=1
+            count +=1
     else:
-    consonant +=1
+        consonant +=1
 print("the count of vocals ",vocal)
 print("the count of consonants ", consonant)
 
