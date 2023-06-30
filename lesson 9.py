@@ -10,9 +10,19 @@
 # insects("butterfly", "fly", "dragonfly")
 
 """принимает марка автомобиля и его модель, которая по умолчанию"""
-def salon(car_brand,model ='q7'):
-    print("{} {}".format(car_brand,model))
-salon("hyundai")
+# def salon(car_brand,model ='q7'):
+#     print("{} {}".format(car_brand,model))
+# salon("hyundai")
+
+"""функция ничего не принимает на вход, внутри содержится фраза : "привет, питонист" 
+и функцию, которая выводит на печать"""
+
+def func():
+    hi = "hello, pythonist!"
+    def phrase(hi):
+        print(hi)
+    phrase(hi)
+func()
 
 
 
