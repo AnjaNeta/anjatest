@@ -2,8 +2,15 @@ class Employee:
     def __init__(self,name, salary):
         self.name = name
         self.salary = salary
-    def display_employee(self,name):
-        return name
-    def display_employee_2(self, salary):
-        return salary
-print("name: , salary: ".split())
+    def display_employee(self):
+        print("Name:", self.name, "Salary:", self.salary)
+empl = Employee("Dave", 10000)
+empl.display_employee()
+
+class Freelance(Employee):
+    def __init__(self, email):
+        self.email = email
+    def display_email(self):
+        print("Email", self.email)
+empl2 = Freelance("dave!@gmail.com")
+empl2.display_email()
