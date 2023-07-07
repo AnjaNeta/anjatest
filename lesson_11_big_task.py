@@ -4,7 +4,13 @@ class User:
         self.login = login
         self.password = password
         self.mode = mode
-    def login_1(self):
-        print("login:", self.login, "password:", self.password, "mode:", self.mode)
-log = User("anjadobrian", 1234567, "user")
-log.login_1()
+
+list_of_users = []
+
+user_1 = User("anjadobrian", 1234567, "user")
+user_2 = User("yongimin", 5678904,"admin")
+user_3 = User("taehyungkim",9768427,"user")
+list_of_users.append(user_1)
+list_of_users.append(user_2)
+list_of_users.append(user_3)
+print(list_of_users)
